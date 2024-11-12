@@ -1,0 +1,12 @@
+
+
+```SQL
+Drop table Doctors;
+
+create table Doctors (
+  DoctorID INTEGER PRIMARY KEY AUTOINCREMENT,
+  Name TEXT NOT NULL,
+  Surname TEXT NOT NULL,
+  SalaryMultiplier DECIMAL NOT NULL
+);
+```
